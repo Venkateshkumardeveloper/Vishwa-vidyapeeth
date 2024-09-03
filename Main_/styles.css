@@ -1,0 +1,412 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 98%;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-block: 70px;
+}
+
+
+.activitiesTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+.activitiesText,
+.activitiesTextswim {
+    background: #D6D6D6;
+    padding: 12px;
+    margin-bottom: 0;
+font-size: 16px;
+font-weight: 600;
+line-height: 14px;
+text-align: left;
+color: #303648;    
+  }
+  .activitiesTextswim{
+    margin: 0;
+
+  }
+  .activitiesTextyoga{
+    background: #EEEEEE;
+    border: 1px solid #D6D7DA;
+    margin:0;
+    padding: 12px;
+font-size: 16px;
+font-weight: 600;
+line-height: 14px;
+text-align: left;
+color: #303648;
+
+
+  }
+
+  .activitiesTableheading {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: left;
+    vertical-align: top;
+}
+
+   /* .activitiesTableheading
+ {
+    background-color:#D6D7DA;
+    
+} */
+ /* .activitiesmainheading{
+    background-color:#D6D7DA;
+ } */
+
+
+.activitiesTable td,
+.activitiesTable th {
+    border: 1px solid #ddd; /* Adds borders to all table cells */
+    padding-block: 16px;
+    padding-inline: 4px;
+}
+.activitiesTable th{
+    font-size: 22px;
+
+}
+.activitiesTable td{
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+}
+
+.portfolio-body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5; 
+}
+
+
+.self-assessment {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+ 
+}
+
+.self-assessment th {
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+
+.self-assessment td {
+    padding: 100px 20px; 
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+.self-assessment td:first-child {
+    width: 20%; 
+}
+
+.self-assessment td:nth-child(2), 
+.self-assessment td:nth-child(3) {
+    text-align: center; 
+}
+
+.self-assessment tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+.self-assessment tr:last-child td {
+    text-align: center; 
+}
+
+h1.self-assessment {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+h1.self-assessment::after {
+    content: ".......................................................";
+    color: lightgray;
+    position:relative;
+    right: -10px;
+    top: -5px;
+   
+}
+
+
+.peer-assessment {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+ 
+}
+
+.peer-assessment th {
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+
+.peer-assessment td {
+    padding: 100px 20px; 
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+.peer-assessment td:first-child {
+    position: relative;
+    width: 0%; 
+}
+
+.peer-assessment td:nth-child(2)
+{
+   
+    text-align: center; 
+    width: 40%;
+}
+.peer-assessment td:nth-child(3) {
+   
+    text-align: center; 
+    width: 40%;
+}
+
+.peer-assessment tr:nth-child(even) {
+    position: relative;
+    background-color: #f9f9f9; 
+}
+
+.peer-assessment tr:last-child td {
+    text-align: center; 
+}
+
+h1.peer-assessment {
+    position: relative;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+h1.peer-assessment::after {
+    content: ".......................................................";
+    color: lightgray;
+    position:relative;
+    right: -10px;
+    top: -5px;
+   
+}
+
+
+.portfolio-wrapper {
+    width: 98%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: white; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.portfolio-heading {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.portfolio-heading::after {
+    content: "..................................";
+    color: lightgray;
+    position: absolute;
+    right: 10px;
+    top: -5px;
+}
+
+.portfolio-signature h4::before {
+    content: "Signature with date";
+    color: gray;
+    margin-right: 5px;
+    position: relative;
+}
+
+.portfolio-signature h4::after {
+    content: ".........................................................................................";
+    color: lightgray;
+}
+
+.portfolio-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+.portfolio-table, .portfolio-table th, .portfolio-table td {
+    border: 1px solid black;
+}
+
+.portfolio-table th, .portfolio-table td {
+    padding: 10px;
+    text-align: center;
+}
+.profile-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+.profile-table, .profile-table th, .profile-table td {
+    border: 1px solid black;
+}
+.profile-table th {
+    padding: 5px 70px; 
+    text-align: left;
+  
+}
+
+.profile-table td {
+    padding: 100px;
+   
+}
+
+.Feedback {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+ 
+}
+
+.Feedback th {
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.Feedback td {
+    padding: 10px 15px;
+    text-align: left; 
+    border: 1px solid #ddd;
+}
+
+.Feedback td:first-child {
+    width: 20%; 
+}
+
+.Feedback td:nth-child(2), 
+.Feedback td:nth-child(3) {
+    text-align: center; 
+}
+
+.Feedback tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+.Feedback tr:last-child td {
+    text-align: center; 
+}
+
+h1.Feedback {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+h1.Feedback::after {
+    content: ".......................................................";
+    color: lightgray;
+    position:relative;
+    right: -10px;
+    top: -5px;
+   
+} 
+
+
+
+
+.Tab1 {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.competency-table {
+    width:98%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.competency-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+
+}
+.competency-table-tr{
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.competency-table th {
+    background-color: #f8f8f8;
+font-size: 20px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+
+}
+
+.competency-table th:nth-child(1) {
+    width:10%;
+       /* Adjust the width for "Subject" column */
+}
+
+.competency-table th:nth-child(2) {
+    width:30%;
+ /* Adjust the width for "Competencies" column */
+}
+
+.competency-table th:nth-child(3),
+.competency-table th:nth-child(4) {
+    width:10%; /* Adjust the width for "Term-1" and "Term-2" columns */
+}
+
+.competency-table .subheader2 {
+    background-color: #eaeaea;
+    font-weight: bold;
+    text-align: left;
+}
+.competency-table .subheader1 {
+    background-color:#FAFAFA;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.competency-table h2{
+    width: 25px; /* Adjust the size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
